@@ -16,7 +16,6 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-
   do{
     curr_button_state = digitalRead(PIN_BUTTON);
   }while (curr_button_state != 0);

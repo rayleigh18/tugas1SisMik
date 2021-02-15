@@ -22,5 +22,4 @@ void loop() {
     digitalWrite(PIN_LED, lamp_state);
   }  
   last_button_state = curr_button_state;
-  delay(LOOP_PERIOD_IN_MS);
 }
