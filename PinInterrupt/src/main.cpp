@@ -13,7 +13,7 @@ void setup() {
   pinMode(PIN_LED, OUTPUT);
   digitalWrite(PIN_LED, lamp_state);
   
-  attachInterrupt(digitalPinToInterrupt(PIN_BUTTON), toggleLED, FALLING);
+  attachInterrupt(digitalPinToInterrupt(PIN_BUTTON), toggleLED, RISING);
 }
 
 
